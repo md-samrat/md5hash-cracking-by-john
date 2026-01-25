@@ -5,22 +5,13 @@ Here I practiced cracking **raw MD5 hashes** using **John the Ripper** with the 
 
 ---
 
-
-### Step 1: Run John the Ripper
+## Clone the Repository
 
 ```bash
-john --format=raw-md5 --wordlist=/usr/share/wordlists/rockyou.txt --rules md5hash.txt
+git https://github.com/samrat-xyz/md5hash-cracking.git
+cd md5hash-cracking
 
-john --format=raw-md5 --show md5hash.txt
 
-result:
-?:123456
-?:password
-?:12345678
-?:qwerty
-?:1234
-?:123
-?:test
-?:admin
-?:user
-?:12345
+```bash
+
+
